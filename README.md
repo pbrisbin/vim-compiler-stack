@@ -1,4 +1,4 @@
-A vim compiler that uses [`stack ghc`][].
+A vim compiler that uses [`stack ghc`][stack].
 
 ## Installation
 
