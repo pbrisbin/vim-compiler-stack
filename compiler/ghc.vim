@@ -14,14 +14,14 @@ endif
 " Pass -e :q to trigger loading of .ghci files
 CompilerSet makeprg=stack\ ghc\ --\ -Wall\ -Werror\ -e\ :q\ %
 CompilerSet errorformat=
-                    \%-G,
-                    \%-Z\ %#,
-                    \%W%f:%l:%c:\ Warning:\ %m,
-                    \%E%f:%l:%c:\ %m,
-                    \%E%>%f:%l:%c:,
-                    \%+C\ \ %#%m,
-                    \%W%>%f:%l:%c:,
-                    \%+C\ \ %#%tarning:\ %m,
+    \%-G,
+    \%-Z\ %#,
+    \%W%f:%l:%c:\ Warning:\ %m,
+    \%E%f:%l:%c:\ %m,
+    \%E%>%f:%l:%c:,
+    \%+C\ \ %#%m,
+    \%W%>%f:%l:%c:,
+    \%+C\ \ %#%tarning:\ %m,
 
 " GHC outputs (partially) to stderr
 setlocal shellpipe=2>
