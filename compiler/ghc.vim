@@ -23,8 +23,5 @@ CompilerSet errorformat=
     \%W%>%f:%l:%c:,
     \%+C\ \ %#%tarning:\ %m,
 
-" GHC outputs (partially) to stderr
-setlocal shellpipe=2>
-
 let &cpo = s:cpo_save
 unlet s:cpo_save
