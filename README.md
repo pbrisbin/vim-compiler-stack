@@ -1,5 +1,7 @@
 A vim compiler that uses [`stack ghc`][stack].
 
+[stack]: http://docs.haskellstack.org/en/stable/README.html
+
 ## Installation
 
 1. Add `pbrisbin/vim-compiler-stack` to your preferred plugin manager
@@ -47,4 +49,6 @@ autocmd QuickFixCmdPost    l* nested lwindow
 autocmd QuickFixCmdPost [^l]* nested cwindow
 ```
 
-[stack]: http://docs.haskellstack.org/en/stable/README.html
+---
+
+[CHANGELOG](./CHANGELOG.md) | [LICENSE](./LICENSE)
